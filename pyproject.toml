@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "sqlizer"
+version = "0.1.0"
+description = ""
+authors = ["RoskiDeluge <roberto.delgado@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.0"
+langchain-cli = "^0.0.20"
+sql-research-assistant = {path = "packages/sql-research-assistant", develop = true}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
